@@ -1,0 +1,314 @@
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+  }
+  body .container-fluid {
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+  body .card .carg-img {
+    width: 100%;
+    height: 150vh;
+    border: none;
+    -webkit-filter: blur(7px);
+            filter: blur(7px);
+  }
+  body .card .card-img-overlay {
+    background: linear-gradient(30deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+  }
+  body .card .card-img-overlay nav {
+    margin: 0;
+    padding: 0;
+  }
+  body .card .card-img-overlay nav .logo {
+    width: 40%;
+    margin: -30% 0%;
+  }
+  body .card .card-img-overlay nav i {
+    letter-spacing: 15px;
+    font-size: 20px;
+    color: #e43c34;
+  }
+  body .card .card-img-overlay section .circlebox .outerCircle {
+    border: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    -webkit-animation: spinPulse 6s infinite ease-in-out;
+            animation: spinPulse 6s infinite ease-in-out;
+    margin: auto;
+  }
+  @-webkit-keyframes spinPulse {
+    0% {
+      -webkit-transform: rotate(160deg);
+              transform: rotate(160deg);
+      opacity: 0;
+      -webkit-box-shadow: 0 0 1px #bdd73c;
+              box-shadow: 0 0 1px #bdd73c;
+    }
+    50% {
+      -webkit-transform: rotate(145deg);
+              transform: rotate(145deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-320deg);
+              transform: rotate(-320deg);
+      opacity: 0;
+    }
+  }
+  @keyframes spinPulse {
+    0% {
+      -webkit-transform: rotate(160deg);
+              transform: rotate(160deg);
+      opacity: 0;
+      -webkit-box-shadow: 0 0 1px #bdd73c;
+              box-shadow: 0 0 1px #bdd73c;
+    }
+    50% {
+      -webkit-transform: rotate(145deg);
+              transform: rotate(145deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-320deg);
+              transform: rotate(-320deg);
+      opacity: 0;
+    }
+  }
+  body .card .card-img-overlay section .circlebox .innerCircle {
+    border: 15px solid #e43c34;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-radius: 100%;
+    top: -287px;
+    width: 272px;
+    height: 272px;
+    position: relative;
+    -webkit-animation: spinoffPulse 6s infinite linear;
+            animation: spinoffPulse 6s infinite linear;
+    margin: auto;
+  }
+  @-webkit-keyframes spinoffPulse {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spinoffPulse {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  body .card .card-img-overlay section .circlebox .userData {
+    margin: auto;
+    position: relative;
+    top: -460px;
+    text-align: center;
+  }
+  body .card .card-img-overlay section .circlebox .userData h2 a {
+    color: #e43c34;
+    font-size: 30px;
+  }
+  body .card .card-img-overlay section .circlebox .userData h6 {
+    color: #fff;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  body .card .card-img-overlay section .circlebox .userData h6 a {
+    color: #e43c34;
+    font-size: 18px;
+  }
+  body .card .card-img-overlay section .basic-info {
+    position: relative;
+    top: -360px;
+  }
+  body .card .card-img-overlay section .basic-info .nav-tabs .nav-link {
+    border-radius: 8px 8px 0px 0px;
+    color: #e43c34;
+    border: none;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content p {
+    color: #fff;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content p i {
+    color: #e43c34;
+    font-size: 20px;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content button {
+    background: #e43c34;
+    border: none;
+    color: #fff;
+    padding: 2%;
+    width: 50%;
+    border-radius: 50px;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content .connected {
+    text-align: center;
+    letter-spacing: 20px;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content .connected i {
+    font-size: 25px;
+    outline: inherit;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content .connected .fa-facebook-square {
+    color: #2a00b4;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content .connected .fa-google {
+    color: #d93025;
+  }
+  body .card .card-img-overlay section .basic-info .tab-content .connected .fa-twitter {
+    color: #5F99F7;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+  }
+  body .container-fluid {
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  body .card .carg-img {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    -webkit-filter: blur(7px);
+            filter: blur(7px);
+  }
+  body .card .card-img-overlay {
+    background: linear-gradient(30deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+  }
+  body .card .card-img-overlay nav {
+    margin: 0;
+    padding: 0;
+  }
+  body .card .card-img-overlay nav .logo {
+    width: 50%;
+    margin: -25% 0%;
+  }
+  body .card .card-img-overlay nav i {
+    letter-spacing: 50px;
+    font-size: 40px;
+    color: #e43c34;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body .card .card-img-overlay nav i:hover {
+    color: #a82923;
+  }
+  body .card .card-img-overlay section .circlebox .outerCircle {
+    border: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    -webkit-animation: spinPulse 6s infinite ease-in-out;
+            animation: spinPulse 6s infinite ease-in-out;
+    margin: auto;
+  }
+  @-webkit-keyframes spinPulse {
+    0% {
+      -webkit-transform: rotate(160deg);
+              transform: rotate(160deg);
+      opacity: 0;
+      -webkit-box-shadow: 0 0 1px #bdd73c;
+              box-shadow: 0 0 1px #bdd73c;
+    }
+    50% {
+      -webkit-transform: rotate(145deg);
+              transform: rotate(145deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-320deg);
+              transform: rotate(-320deg);
+      opacity: 0;
+    }
+  }
+  @keyframes spinPulse {
+    0% {
+      -webkit-transform: rotate(160deg);
+              transform: rotate(160deg);
+      opacity: 0;
+      -webkit-box-shadow: 0 0 1px #bdd73c;
+              box-shadow: 0 0 1px #bdd73c;
+    }
+    50% {
+      -webkit-transform: rotate(145deg);
+              transform: rotate(145deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-320deg);
+              transform: rotate(-320deg);
+      opacity: 0;
+    }
+  }
+  body .card .card-img-overlay section .circlebox .innerCircle {
+    border: 15px solid #e43c34;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-radius: 100%;
+    top: -287px;
+    width: 272px;
+    height: 272px;
+    position: relative;
+    -webkit-animation: spinoffPulse 6s infinite linear;
+            animation: spinoffPulse 6s infinite linear;
+    margin: auto;
+  }
+  @-webkit-keyframes spinoffPulse {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spinoffPulse {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  body .card .card-img-overlay section .circlebox .userData {
+    margin: auto;
+    position: relative;
+    top: -460px;
+    text-align: center;
+  }
+  body .card .card-img-overlay section .circlebox .userData h2 a {
+    color: #e43c34;
+    font-size: 30px;
+  }
+  body .card .card-img-overlay section .circlebox .userData h6 {
+    color: #fff;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  body .card .card-img-overlay section .circlebox .userData h6 a {
+    color: #e43c34;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */

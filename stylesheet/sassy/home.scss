@@ -1,0 +1,361 @@
+@import '_settings';
+
+@include mobile {
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(30deg, color(dark-secondary), color(light-secondary)), url(../assets/bg4-mob.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+
+        nav {
+            a img {
+                width: 40%;
+            }
+
+            .navbar-nav {
+                i {
+                    letter-spacing: 15px;
+                    font-size: 20px;
+                    color: color(background);
+                }
+            }
+        }
+
+        section {
+            text-align: center;
+
+            .what {
+                color: color(primary);
+                font-size: 40px;
+                font-weight: lighter;
+
+                p {
+                    font-size: 50px;
+                }
+            }
+
+            .custom-text {
+                color: color(primary);
+                font-size: 20px;
+            }
+
+            .dropdown {
+                button {
+                    background: color(background);
+                    border: none;
+                    color: color(primary);
+                    font-size: 18px;
+
+                    &:focus {
+                        background: color(primary);
+                        border: none;
+                        outline: none;
+                        color: color(background);
+                    }
+                }
+            }
+
+            .set-goal {
+                padding: 5%;
+                width: 100%;
+                margin: auto;
+                display: block;
+                border-radius: 10px;
+                background: color(light-primary);
+
+                .fa-times {
+                    float: right;
+                    margin: -17px;
+                    color: color(primary);
+                    background: color(background);
+                    padding: 2% 3%;
+                    border: none;
+                    border-radius: 0% 0% 0% 50%;
+                    font-size: 20px;
+                }
+
+                input {
+                    border: none;
+                    padding: 2% 5%;
+                    border-radius: 50px;
+                    background: color(light-primary);
+                    color: color(dark-secondary);
+                    outline: inherit;
+                    letter-spacing: 1px;
+                    width: 95%;
+                    margin: auto;
+                }
+
+                textarea {
+                    border: none;
+                    padding: 2% 5%;
+                    border-radius: 10px;
+                    background: color(light-primary);
+                    color: color(dark-secondary);
+                    outline: inherit;
+                    letter-spacing: 1px;
+                    width: 95%;
+                    margin: auto;
+                }
+
+                .duration-choice {
+
+                    .set-duration {
+                        font-size: 18px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                    }
+
+                    .input {
+                        display: flex;
+
+                        input {
+                            text-align: center;
+                            border: 1px solid color(light-background);
+                        }
+                    }
+                }
+
+                .callender {
+                    display: inline-flex;
+
+                    select {
+                        background: transparent;
+                        border: none;
+                        border-bottom: 4px solid color(background);
+                    }
+                }
+
+                .commit-btn {
+                    width: 40%;
+                    padding: 2px;
+                    border-radius: 50px;
+                    outline: inherit;
+
+                    img{
+                        width: 15%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include desktop {
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(30deg, color(dark-secondary), color(light-secondary)), url(../assets/bg4.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 110vh;
+
+        nav {
+            a img {
+                width: 50%;
+                margin: -8% 0%;
+            }
+
+            .navbar-nav {
+                i {
+                    letter-spacing: 50px;
+                    font-size: 40px;
+                    color: color(background);
+                    cursor: pointer;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        color: color(dark-background)
+                    }
+                }
+            }
+        }
+
+        section {
+            text-align: center;
+
+            .what {
+                color: color(primary);
+                font-size: 40px;
+                font-weight: lighter;
+
+                p {
+                    font-size: 50px;
+                }
+            }
+
+            .custom-text {
+                color: color(primary);
+                font-size: 20px;
+            }
+
+            .dropdown {
+                button {
+                    background: color(background);
+                    border: none;
+                    color: color(primary);
+                    font-size: 18px;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background: color(dark-background);
+                        cursor: pointer;
+                    }
+
+                    &:focus {
+                        background: color(primary);
+                        border: none;
+                        outline: none;
+                        color: color(background);
+                    }
+                }
+            }
+
+            .set-goal {
+                padding: 2%;
+                width: 45%;
+                margin: auto;
+                display: block;
+                border-radius: 10px;
+                background: color(light-primary);
+
+                .fa-times {
+                    float: right;
+                    margin: -25px;
+                    color: color(primary);
+                    background: color(background);
+                    padding: 2% 3%;
+                    border: none;
+                    border-radius: 0% 20% 0% 50%;
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background: color(dark-background);
+                        color: color(primary);
+                    }
+                }
+
+                input {
+                    border: none;
+                    padding: 2% 5%;
+                    border-radius: 50px;
+                    background: color(light-primary);
+                    color: color(dark-secondary);
+                    outline: inherit;
+                    letter-spacing: 1px;
+                    width: 95%;
+                    margin: auto;
+                }
+
+                textarea {
+                    border: none;
+                    padding: 2% 5%;
+                    border-radius: 10px;
+                    background: color(light-primary);
+                    color: color(dark-secondary);
+                    outline: inherit;
+                    letter-spacing: 1px;
+                    width: 95%;
+                    margin: auto;
+                    resize: none;
+                }
+
+                .duration-choice {
+
+                    .set-duration {
+                        font-size: 18px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                    }
+
+                    .input {
+                        display: flex;
+
+                        input {
+                            text-align: center;
+                            border: 1px solid color(light-background);
+                        }
+                    }
+
+                    .with-time {
+                        font-size: 16px;
+
+                        p {
+                            cursor: pointer;
+
+                            i {
+                                color: color(background);
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .callender,
+                .clock {
+                    display: inline-flex;
+
+                    select {
+                        background: transparent;
+                        border: none;
+                        border-bottom: 4px solid color(background);
+                        margin: 0% 2%;
+                    }
+                }
+
+                .commit-btn {
+                    width: 40%;
+                    padding: 3px;
+                    border-radius: 50px;
+                    outline: inherit;
+                    transition: 0.3s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: color(dark-background);
+                        color: color(primary);
+                    }
+
+                    img{
+                        width: 15%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

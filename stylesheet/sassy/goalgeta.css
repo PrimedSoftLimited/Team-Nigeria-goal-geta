@@ -1,0 +1,90 @@
+@media(max-width: 768px){
+    /*landing page*/
+    .container-fluid{
+        padding: 0px !important;
+    }
+    .welcome{
+        background-image:linear-gradient(rgba(41, 40, 0, 0.3), transparent),url("../assets/mob-bg2.jpg");
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width: 100%;
+        height:100vh;
+        background-position: center;
+    }
+    .logo{
+        margin: auto;
+        display: block;
+    }
+    .prompt{
+        color: white;
+        text-align: center;
+        font-weight:lighter;
+         font-size:20px;
+    }
+    .bton{
+        margin: auto;
+        display: block;
+        border-radius:20px;
+        border:none;
+        padding: 2%;
+        color:white;
+        background-color: rgb(228, 60, 52);
+        width:40%;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .bton:hover{
+        background-color: white;
+        color: rgb(228, 60, 52);
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px){
+    /*landing page*/
+    .welcome{
+        background: linear-gradient(rgba(41, 40, 0, 0.3), transparent),url("../assets/wide-bg3.jpg")no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height:100vh;
+        background-position: center;
+    }
+    .logo{
+        margin: auto;
+        display: block;
+    }
+    .prompt{
+        color: white;
+        text-align: center;
+        font-weight:lighter;
+        font-size:20px;
+    }
+    .bton{
+        margin: auto;
+        display: block;
+        border-radius:20px;
+        border:none;
+        padding: 1%;
+        color:white;
+        background-color: rgb(228, 60, 52);
+        width: 20%;
+        transition: 0.3s ease-in-out;
+        outline: inherit;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .bton:hover{
+        background-color: white;
+        color: rgb(228, 60, 52);
+    }
+}

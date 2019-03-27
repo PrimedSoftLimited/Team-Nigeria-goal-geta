@@ -1,0 +1,28 @@
+$colors:(
+background: rgb(228, 60, 52),
+light-background:rgba(228, 60, 52, 0.4),
+dark-background:rgb(168, 41, 35),
+primary: #fff,
+light-primary: rgba(255, 255, 255, 0.8),
+dark-secondary: rgba(0,0,0,0.8),
+light-secondary: rgba(0,0,0,0.3)
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name)
+}
+
+$mobile:768px;
+$desktop:768px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}

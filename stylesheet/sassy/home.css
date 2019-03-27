@@ -1,0 +1,281 @@
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(30deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../assets/bg4-mob.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+  }
+  body nav a img {
+    width: 40%;
+  }
+  body nav .navbar-nav i {
+    letter-spacing: 15px;
+    font-size: 20px;
+    color: #e43c34;
+  }
+  body section {
+    text-align: center;
+  }
+  body section .what {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  body section .what p {
+    font-size: 50px;
+  }
+  body section .custom-text {
+    color: #fff;
+    font-size: 20px;
+  }
+  body section .dropdown button {
+    background: #e43c34;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  body section .dropdown button:focus {
+    background: #fff;
+    border: none;
+    outline: none;
+    color: #e43c34;
+  }
+  body section .set-goal {
+    padding: 5%;
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  body section .set-goal .fa-times {
+    float: right;
+    margin: -17px;
+    color: #fff;
+    background: #e43c34;
+    padding: 2% 3%;
+    border: none;
+    border-radius: 0% 0% 0% 50%;
+    font-size: 20px;
+  }
+  body section .set-goal input {
+    border: none;
+    padding: 2% 5%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    outline: inherit;
+    letter-spacing: 1px;
+    width: 95%;
+    margin: auto;
+  }
+  body section .set-goal textarea {
+    border: none;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    outline: inherit;
+    letter-spacing: 1px;
+    width: 95%;
+    margin: auto;
+  }
+  body section .set-goal .duration-choice .set-duration {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  body section .set-goal .duration-choice .input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body section .set-goal .duration-choice .input input {
+    text-align: center;
+    border: 1px solid rgba(228, 60, 52, 0.4);
+  }
+  body section .set-goal .callender {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body section .set-goal .callender select {
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #e43c34;
+  }
+  body section .set-goal .commit-btn {
+    width: 40%;
+    padding: 2px;
+    border-radius: 50px;
+    outline: inherit;
+  }
+  body section .set-goal .commit-btn img {
+    width: 15%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(30deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../assets/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+  }
+  body nav a img {
+    width: 50%;
+    margin: -8% 0%;
+  }
+  body nav .navbar-nav i {
+    letter-spacing: 50px;
+    font-size: 40px;
+    color: #e43c34;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body nav .navbar-nav i:hover {
+    color: #a82923;
+  }
+  body section {
+    text-align: center;
+  }
+  body section .what {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  body section .what p {
+    font-size: 50px;
+  }
+  body section .custom-text {
+    color: #fff;
+    font-size: 20px;
+  }
+  body section .dropdown button {
+    background: #e43c34;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body section .dropdown button:hover {
+    background: #a82923;
+    cursor: pointer;
+  }
+  body section .dropdown button:focus {
+    background: #fff;
+    border: none;
+    outline: none;
+    color: #e43c34;
+  }
+  body section .set-goal {
+    padding: 2%;
+    width: 45%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  body section .set-goal .fa-times {
+    float: right;
+    margin: -25px;
+    color: #fff;
+    background: #e43c34;
+    padding: 2% 3%;
+    border: none;
+    border-radius: 0% 20% 0% 50%;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body section .set-goal .fa-times:hover {
+    background: #a82923;
+    color: #fff;
+  }
+  body section .set-goal input {
+    border: none;
+    padding: 2% 5%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    outline: inherit;
+    letter-spacing: 1px;
+    width: 95%;
+    margin: auto;
+  }
+  body section .set-goal textarea {
+    border: none;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    outline: inherit;
+    letter-spacing: 1px;
+    width: 95%;
+    margin: auto;
+    resize: none;
+  }
+  body section .set-goal .duration-choice .set-duration {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  body section .set-goal .duration-choice .input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body section .set-goal .duration-choice .input input {
+    text-align: center;
+    border: 1px solid rgba(228, 60, 52, 0.4);
+  }
+  body section .set-goal .duration-choice .with-time {
+    font-size: 16px;
+  }
+  body section .set-goal .duration-choice .with-time p {
+    cursor: pointer;
+  }
+  body section .set-goal .duration-choice .with-time p i {
+    color: #e43c34;
+    font-size: 20px;
+  }
+  body section .set-goal .callender,
+  body section .set-goal .clock {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body section .set-goal .callender select,
+  body section .set-goal .clock select {
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #e43c34;
+    margin: 0% 2%;
+  }
+  body section .set-goal .commit-btn {
+    width: 40%;
+    padding: 3px;
+    border-radius: 50px;
+    outline: inherit;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  body section .set-goal .commit-btn:hover {
+    background: #a82923;
+    color: #fff;
+  }
+  body section .set-goal .commit-btn img {
+    width: 15%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=home.css.map */

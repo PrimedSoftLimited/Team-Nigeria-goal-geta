@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="stylesheet/assets/goalgeta_red.png">
+    <title>Profile || GoalGeta</title>
+
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist(1)/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/sassy/profile.css">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist(1)/css/fontawesome-free-5.6.1-web/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet/sassy/animate.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="profile">
+        <div class="row">
+            <div class="card">
+                <img class="carg-img desktop-background" src="stylesheet/assets/bg7.jpg" alt="BODY">
+
+                <div class="card-img-overlay">
+                    <nav class="navbar">
+                        <a href="home.html" class="navbar-brand">
+                            <img class="logo" src="stylesheet/assets/goalgeta_red.png" alt="LOGO">
+                        </a>
+
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active">
+                                <a href="home.html"><i class="fa fa-home"></i></a>
+                                <a href="profile.html"><i class="fa fa-user-circle"></i></a>
+                                <a href="dashboard.html"><i class="fa fa-file-alt"></i></a>
+                                <div class="logout">
+                                    <div class="outerCircle"></div>
+                                    <div class="innerCircle"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav><br>
+
+                    <div class="row">
+                        <section class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="circlebox col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <div class="outerCircle"></div>
+                                <div class="innerCircle"></div>
+                                <div class="userData ml-3">
+                                    <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a
+                                            href="javascript:void(0);" id="bigName"></a></h2>
+                                    <h6 class="d-block"><a href="javascript:void(0)">0</a> Goal</h6>
+                                    <h6 class="d-block"><a href="javascript:void(0)">0</a> Task Completed</h6>
+                                </div>
+
+                                <div class="ml-auto">
+                                    <input type="button" class="btn btn-primary d-none" id="btnDiscard"
+                                        value="Discard Changes" />
+                                </div>
+                            </div>
+
+                            <div class="row basic-info col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <div class="col-12">
+                                    <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="basicInfo-tab" data-toggle="tab"
+                                                href="#basicInfo" role="tab" aria-controls="basicInfo"
+                                                aria-selected="true">Basic Info</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="editprofile-tab" data-toggle="tab"
+                                                href="#editprofile" role="tab" aria-controls="editprofile"
+                                                aria-selected="false">Edit Profile</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="connectedServices-tab" data-toggle="tab"
+                                                href="#connectedServices" role="tab" aria-controls="connectedServices"
+                                                aria-selected="false">Connected Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="logout-tab" data-toggle="tab"
+                                                href="#logout" role="tab" aria-controls="logout"
+                                                aria-selected="false">Logout</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="tab-content ml-1" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="basicInfo" role="tabpanel"
+                                            aria-labelledby="basicInfo-tab">
+
+
+                                        </div>
+
+                                        <div class="tab-pane fade connected" id="connectedServices" role="tabpanel"
+                                            aria-labelledby="ConnectedServices-tab">
+                                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                            <a href="#"><i class="fab fa-google"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="editprofile" role="tabpanel"
+                                            aria-labelledby="editprofile-tab">
+
+                                        </div>
+
+                                        <div class="tab-pane fade" id="logout" role="tabpanel"
+                                            aria-labelledby="logout-tab">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-4.1.3-dist(1)/js/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+    <script src="bootstrap-4.1.3-dist(1)/js/bootstrap.min.js"></script>
+    <script src="script/axios.js"></script>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
